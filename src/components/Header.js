@@ -42,7 +42,7 @@ const CallToAction = styled.div`
       font-weight: 800;
       &:hover {
         background-color: #e8eef2;
-        color: #d6c9c9;
+        color: #816c61;
       }
     }
   }
@@ -68,7 +68,7 @@ const CallToAction = styled.div`
       font-weight: 800;
       &:hover {
         background-color: #e8eef2;
-        color: #d6c9c9;
+        color: #816c61;
       }
     }
   }

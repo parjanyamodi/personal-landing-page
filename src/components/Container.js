@@ -23,7 +23,7 @@ const Container = (props) => {
               <span>Parjanya H. Modi</span>
             </ProfileName>
             <ProfileTitle>
-                <span>Engineer</span>
+              <span>Computer Science & Engineering Undergrad</span>
             </ProfileTitle>
             <ProfileBio>
               <span>
@@ -39,29 +39,67 @@ const Container = (props) => {
                 like Aldus PageMaker including versions of Lorem Ipsum.
               </span>
             </ProfileBio>
+            <CTAButtons>
+              <Portfolio>
+                <a
+                  href="https://portfolio.parjanyamodi.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span>Portfolio</span>
+                </a>
+              </Portfolio>
+              <Photography>
+                <a
+                  href="https://photography.parjanyamodi.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span>Photography</span>
+                </a>
+              </Photography>
+            </CTAButtons>
             <SocialIcons>
-              <a href="https://github.com/parjanyamodi" rel="noopener noreferrer"
-                  target="_blank">
+              <a
+                href="https://github.com/parjanyamodi"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <FaGithub />
               </a>
-              <a href="https://www.instagram.com/parjanya_modi/" rel="noopener noreferrer"
-                  target="_blank">
+              <a
+                href="https://www.instagram.com/parjanya_modi/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <FaInstagram />
               </a>
-              <a href="https://www.linkedin.com/in/parjanyamodi/" rel="noopener noreferrer"
-                  target="_blank">
+              <a
+                href="https://www.linkedin.com/in/parjanyamodi/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <FaLinkedinIn />
               </a>
-              <a href="https://www.youtube.com/channel/UCLNn5vP3X38s8Kdf5Mjk0QA/featured" rel="noopener noreferrer"
-                  target="_blank">
+              <a
+                href="https://www.youtube.com/channel/UCLNn5vP3X38s8Kdf5Mjk0QA/featured"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <FaYoutube />
               </a>
-              <a href="mailto:parjanyamodi@gmail.com" rel="noopener noreferrer"
-                  target="_blank">
+              <a
+                href="mailto:parjanyamodi@gmail.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <HiMail />
               </a>
-              <a href="https://wa.me/919737426927?text=Visited%20your%20landing%20page%20!" rel="noopener noreferrer"
-                  target="_blank">
+              <a
+                href="https://wa.me/919737426927?text=Visited%20your%20landing%20page%20!"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <FaWhatsapp />
               </a>
             </SocialIcons>
@@ -97,7 +135,7 @@ const Footer = styled.div`
     position: relative;
     left: 0;
     right: 0;
-    margin-top: 10vh;
+    margin-top: 6vh;
     span {
       font-size: 14px;
       color: #2a90cb;
@@ -133,7 +171,7 @@ const Footer = styled.div`
     position: relative;
     left: 0;
     right: 0;
-    margin-top: 10vh;
+    margin-top: 5vh;
     span {
       font-size: 14px;
       color: #2a90cb;
@@ -158,7 +196,63 @@ const SocialIcons = styled.div`
     font-size: 24px;
     font-weight: 700;
     margin: 5px;
+    &:hover {
+        color: #131B23;
+    }
   }
+`;
+const Portfolio = styled.a`
+  margin: 10px;
+  a {
+    width: 150px;
+    background-color: #131B23;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    span {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: #EDE7D4;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &:hover {
+        background-color: #E9F1F7;
+        span {
+            color: #131B23;
+        }
+    }
+  }
+`;
+const Photography = styled.a`
+  margin: 10px;
+  a {
+    width: 150px;
+    background-color: #131B23;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    span {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: #EDE7D4;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &:hover {
+        background-color: #E9F1F7;
+        span {
+            color: #131B23;
+        }
+    }
+  }
+`;
+const CTAButtons = styled.div`
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
 `;
 const ProfileBio = styled.div`
   @media (min-width: 1024px) {
@@ -207,7 +301,7 @@ const ProfileTitle = styled.div`
       justify-content: center;
       font-size: 28px;
       font-weight: 400;
-      color: #2A90CB;
+      color: #2a90cb;
     }
   }
   @media (min-width: 768px) and (max-width: 1024px) {
@@ -218,7 +312,7 @@ const ProfileTitle = styled.div`
       justify-content: center;
       font-size: 24px;
       font-weight: 400;
-      color: #2A90CB;
+      color: #2a90cb;
     }
   }
   @media (max-width: 768px) {
@@ -229,7 +323,7 @@ const ProfileTitle = styled.div`
       justify-content: center;
       font-size: 22px;
       font-weight: 400;
-      color: #2A90CB;
+      color: #2a90cb;
     }
   }
 `;
