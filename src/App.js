@@ -12,13 +12,13 @@ function App() {
           <Route exact path="/">
             <Container />
           </Route>
-          <Route path="home">
+          <Route path="/home">
             <Container />
           </Route>
-          <Route path="index">
+          <Route path="/index">
             <Container />
           </Route>
-          <Route path="contact">
+          <Route path="/contact">
           </Route>
         </Switch>
       </Router>
