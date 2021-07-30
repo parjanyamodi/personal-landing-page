@@ -10,7 +10,7 @@ import {
 } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 
-const Container = (props) => {
+const Home = (props) => {
   return (
     <>
       <Bucket>
@@ -31,12 +31,11 @@ const Container = (props) => {
                 by the complex yet adaptable nature of technology. I am a
                 photographer, software developer, computer networks aficionado
                 and a creative UI/UX designer, who has been a freelancer in
-                these fields since 2019. In today's world, technology has been
-                amalgamated into every sector of the economy and I believe that
-                to realise the true potential of our country, we need to tap
-                this resource and utilise it to the maximum extent possible,
-                while deriving inspiration from the democratic ideals of
-                liberty, equality and fraternity.
+                these fields since 2019. Today, when technology has conquered
+                every aspect of human life, resulting in the change of work
+                method, cognitive learning and managing finance. Our devices
+                inevitably begin to show our civic aspirations – our desires to
+                connect with others and to contribute to the world around us.
               </span>
             </ProfileBio>
             <CTAButtons>
@@ -433,4 +432,4 @@ const Bucket = styled.div`
   }
 `;
 
-export default Container;
+export default Home;
