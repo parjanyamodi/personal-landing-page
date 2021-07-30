@@ -6,7 +6,9 @@ const Header = (props) => {
     <Bucket>
       <SubBucket>
         <Logo>
-          <img src="/images/sign-logo.png" alt="Parjanya Modi" />
+          <a href="/">
+            <img src="/images/sign-logo.png" alt="Parjanya Modi" />
+          </a>
         </Logo>
         <CallToAction>
           <a href="/contact">
@@ -23,7 +25,7 @@ const CallToAction = styled.div`
     z-index: 15;
     a {
       text-decoration: none;
-      color: #EDE7D4;
+      color: #ede7d4;
       padding: 0;
       width: 200px;
       height: 70px;
@@ -34,13 +36,13 @@ const CallToAction = styled.div`
       justify-content: center;
       font-size: 0;
       z-index: 20;
-      background-color: #816C61;
+      background-color: #816c61;
       border-radius: 15px;
       font-size: 16px;
       font-weight: 800;
       &:hover {
-        background-color: #E8EEF2;
-        color: #D6C9C9;
+        background-color: #e8eef2;
+        color: #d6c9c9;
       }
     }
   }
@@ -49,7 +51,7 @@ const CallToAction = styled.div`
     z-index: 15;
     a {
       text-decoration: none;
-      color: #EDE7D4;
+      color: #ede7d4;
       padding: 0;
       width: 120px;
       height: 60px;
@@ -60,13 +62,13 @@ const CallToAction = styled.div`
       justify-content: center;
       font-size: 0;
       z-index: 20;
-      background-color: #816C61;
+      background-color: #816c61;
       border-radius: 15px;
       font-size: 16px;
       font-weight: 800;
       &:hover {
-        background-color: #E8EEF2;
-        color: #D6C9C9;
+        background-color: #e8eef2;
+        color: #d6c9c9;
       }
     }
   }
@@ -88,7 +90,7 @@ const Logo = styled.a`
       justify-content: center;
       width: 200px;
       image-rendering: auto;
-  image-rendering: crisp-edges;
+      image-rendering: crisp-edges;
     }
   }
   @media (max-width: 600px) {
@@ -106,15 +108,15 @@ const Logo = styled.a`
       justify-content: center;
       width: 130px;
       image-rendering: auto;
-  image-rendering: crisp-edges;
+      image-rendering: crisp-edges;
     }
   }
 `;
 const SubBucket = styled.div`
   @media (min-width: 600px) {
-    position: fixed;
+    position: relative;
     height: 100px;
-    background-color: #131B23;
+    background-color: #131b23;
     width: 80vw;
     border: none;
     border-radius: 20px;
@@ -123,9 +125,9 @@ const SubBucket = styled.div`
     align-items: center;
   }
   @media (max-width: 600px) {
-    position: fixed;
+    position: relative;
     height: 90px;
-    background-color: #131B23;
+    background-color: #131b23;
     width: 90vw;
     border: none;
     border-radius: 20px;
@@ -135,7 +137,8 @@ const SubBucket = styled.div`
   }
 `;
 const Bucket = styled.nav`
-  position: fixed;
+  overflow: hidden;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;

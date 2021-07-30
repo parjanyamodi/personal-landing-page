@@ -15,6 +15,9 @@ function App() {
           <Route path="home">
             <Container />
           </Route>
+          <Route path="index">
+            <Container />
+          </Route>
           <Route path="contact">
           </Route>
         </Switch>
