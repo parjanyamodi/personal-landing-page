@@ -27,16 +27,16 @@ const Container = (props) => {
             </ProfileTitle>
             <ProfileBio>
               <span>
-                The big Paragraph.Lorem Ipsum is simply dummy text of the
-                printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an
-                unknown printer took a galley of type and scrambled it to make a
-                type specimen book. It has <strong>survived</strong> not only
-                five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged. It was popularised in the 1960s
-                with the release of Letraset sheets containing Lorem Ipsum
-                passages, and more recently with desktop publishing software
-                like Aldus PageMaker including versions of Lorem Ipsum.
+                I am a curious, able and energetic individual who is fascinated
+                by the complex yet adaptable nature of technology. I am a
+                photographer, software developer, computer networks aficionado
+                and a creative UI/UX designer, who has been a freelancer in
+                these fields since 2019. In today's world, technology has been
+                amalgamated into every sector of the economy and I believe that
+                to realise the true potential of our country, we need to tap
+                this resource and utilise it to the maximum extent possible,
+                while deriving inspiration from the democratic ideals of
+                liberty, equality and fraternity.
               </span>
             </ProfileBio>
             <CTAButtons>
@@ -197,7 +197,7 @@ const SocialIcons = styled.div`
     font-weight: 700;
     margin: 5px;
     &:hover {
-        color: #131B23;
+      color: #131b23;
     }
   }
 `;
@@ -205,23 +205,23 @@ const Portfolio = styled.a`
   margin: 10px;
   a {
     width: 150px;
-    background-color: #131B23;
+    background-color: #131b23;
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 10px;
     span {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        color: #EDE7D4;
-        font-size: 16px;
-        font-weight: 700;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      color: #ede7d4;
+      font-size: 16px;
+      font-weight: 700;
     }
     &:hover {
-        background-color: #E9F1F7;
-        span {
-            color: #131B23;
-        }
+      background-color: #e9f1f7;
+      span {
+        color: #131b23;
+      }
     }
   }
 `;
@@ -229,23 +229,23 @@ const Photography = styled.a`
   margin: 10px;
   a {
     width: 150px;
-    background-color: #131B23;
+    background-color: #131b23;
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 10px;
     span {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        color: #EDE7D4;
-        font-size: 16px;
-        font-weight: 700;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      color: #ede7d4;
+      font-size: 16px;
+      font-weight: 700;
     }
     &:hover {
-        background-color: #E9F1F7;
-        span {
-            color: #131B23;
-        }
+      background-color: #e9f1f7;
+      span {
+        color: #131b23;
+      }
     }
   }
 `;
