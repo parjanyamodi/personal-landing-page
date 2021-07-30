@@ -11,7 +11,7 @@ import {
 import { HiMail } from "react-icons/hi";
 import { db } from "../firebase";
 
-const Home = () => {
+const Contact = () => {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [phone, setPhone] = React.useState("");
@@ -496,4 +496,4 @@ const Bucket = styled.div`
   }
 `;
 
-export default Home;
+export default Contact;
